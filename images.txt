@@ -2,6 +2,6 @@
 nginx:1.28.0
 ubuntu:22.04
 python:3.9-slim
-clusterzx/paperless-ai
 node:22-slim
+clusterzx/paperless-ai
 
