@@ -60,7 +60,7 @@ while IFS= read -r image; do
 
     echo "Image not found in ACR, proceeding with sync..."
 
-    docker pull "${image}"
+    docker pull --platform linux/arm64 "${image}"
     docker tag "${image}" "${target_full_image_path}"
     docker push "${target_full_image_path}"
 

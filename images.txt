@@ -1,6 +1,10 @@
 # 官方镜像示例
-#docker.io/library/redis:8
-#docker.io/library/postgres:18
-#clusterzx/paperless-ai
+docker.io/library/redis:8
+docker.io/library/postgres:18
+clusterzx/paperless-ai
 ghcr.io/paperless-ngx/paperless-ngx:latest
+nginx:1.28.0
+ubuntu:22.04
+python:3.9-slim
+node:22-slim
 
